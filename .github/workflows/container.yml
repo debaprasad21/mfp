@@ -23,7 +23,7 @@ jobs:
           npm install
           npm run build
 
-      - name: Configure AWS CLI
+      - name: Configure AWS CLI from shinyinc
         uses: shinyinc/action-aws-cli@1.2
 
       - name: Pushing to Amazon S3
